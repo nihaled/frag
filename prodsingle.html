@@ -31,11 +31,11 @@
     <body>
         <!-- navbar -->
         <nav class="navbar fixed-top pb-0">
-            <div class="container-fluid py-4 mx-5 border-bottom border-dark">
-                <a class="navbar-brand" href="#">
+            <div class="container-fluid py-4 mx-5 border-bottom border-dark d-flex justify-content-center">
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/logo/Logo.png" class="navlogo" alt="">
                 </a>
-                <button class="/navbar-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <!-- <button class="/navbar-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -46,10 +46,10 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="prodsingle.html">Product single</a>
+                                <a class="nav-link" href="prodsingle.html">Product single</a>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
@@ -57,7 +57,7 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </nav>
 
@@ -68,7 +68,7 @@
                         <div class="card shadow-0 border rounded-3 shadow py-5">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                                    <div class="col-md-12 col-lg-6 col-xl-6 mb-4 mb-lg-0">
                                         <div class="bg-image hover-zoom ripple rounded ripple-surface">
                                             <div id="carouselExample" class="carousel slide">
                                                 <div class="carousel-inner">
@@ -95,7 +95,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-md-10 col-lg-6 col-xl-6">
                                         <h5>1958 - FAIZ NICHE</h5>
 
                                         <div class="mb-2 text-muted  small">
@@ -111,17 +111,18 @@
                                             <span>
                                                 Fragrance note</span>
                                         </div>
-                                        <div class="text-muted">
+                                        <img class="w-50" src="assets/images/1958-1.png" alt="">
+                                        <!-- <div class="text-muted">
                                             <span>Top Note: Plum & Peach.</span><br>
                                             <span>Heart Note: Violet & Peon</span><br>
                                             <span>Base Note: Leather, Vanilla, Patchouli & Musk</span>
-                                        </div>
+                                        </div> -->
 
                                         <p class=" my-4 mb-md-0">
                                             Faiz Niche Collection 1958 EDP 80ML is an Amber, Woody fragrance for Unisex.
                                         </p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                                    <!-- <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
                                         <div class="d-flex flex-row align-items-center mb-1">
                                             <h4 class="mb-1 me-1">$13.99</h4>
                                             <span class="text-danger">
@@ -136,87 +137,12 @@
                                                 Share details
                                             </button>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row justify-content-center mb-3">
-                                        <div class="col-md-12 col-xl-10">
-                                                <div class="card shadow-0 border rounded-3">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                                                                <div class="bg-image hover-zoom ripple rounded ripple-surface">
-                                                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(4).webp" class="w-100"/>
-                                                                    <a href="#!">
-                                                                        <div class="hover-overlay">
-                                                                            <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6 col-lg-6 col-xl-6">
-                                                                <h5>Quant olap shirts</h5>
-                                                                <div class="d-flex flex-row">
-                                                                    <div class="text-danger mb-1 me-2">
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                        <i class="fa fa-star"></i>
-                                                                    </div>
-                                                                    <span>289</span>
-                                                                </div>
-                                                                <div class="mt-1 mb-0 text-muted small">
-                                                                    <span>100% cotton</span>
-                                                                    <span class="text-primary">
-                                                                        •
-                                                                    </span>
-                                                                    <span>Light weight</span>
-                                                                    <span class="text-primary">
-                                                                        •
-                                                                    </span>
-                                                                    <span>Best finish<br/></span>
-                                                                </div>
-                                                                <div class="mb-2 text-muted small">
-                                                                    <span>Unique design</span>
-                                                                    <span class="text-primary">
-                                                                        •
-                                                                    </span>
-                                                                    <span>For men</span>
-                                                                    <span class="text-primary">
-                                                                        •
-                                                                    </span>
-                                                                    <span>Casual<br/></span>
-                                                                </div>
-                                                                <p class="text-truncate mb-4 mb-md-0">
-                                                                    There are many variations of passages of Lorem Ipsum available, but the
-                                                                                                majority have suffered alteration in some form, by injected humour, or
-                                                                                                randomised words which don't look even slightly believable.
-                                                                </p>
-                                                            </div>
-                                                            <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                                                                <div class="d-flex flex-row align-items-center mb-1">
-                                                                    <h4 class="mb-1 me-1">$14.99</h4>
-                                                                    <span class="text-danger">
-                                                                        <s>$21.99</s>
-                                                                    </span>
-                                                                </div>
-                                                                <h6 class="text-success">Free shipping</h6>
-                                                                <div class="d-flex flex-column mt-4">
-                                                                    <button class="btn btn-primary btn-sm" type="button">Details</button>
-                                                                    <button class="btn btn-outline-primary btn-sm mt-2" type="button">
-                                                                        Add to wishlist
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-
             </div>
         </section>
         <div class="container">
@@ -285,43 +211,7 @@
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer
-            class="bg-dark text-center text-white py-3">
-            <!-- Grid container -->
-            <div
-                class="container p-4 pb-0">
-                <!-- Section: Social media -->
-                <section
-                    class="mb-1">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-
-                    <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                        <i class="bi bi-twitter"></i>
-                    </a>
-
-                    <!-- Instagram -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-
-                </section>
-                <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
-
-            <!-- Copyright -->
-            <div class="text-center bg-dark p-3">
-                © 2023 Copyright:
-                <a class="text-white" target="_blank" href="https://faizniche.ae/">faizniche.ae</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+       
         <script>
             $('.owl-carousel').owlCarousel({
                 autoplay: true,
