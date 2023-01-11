@@ -63,7 +63,7 @@
             </nav>
 
             <div class="container my-5 py-5 text-center">
-                <h3 class="mt-5 pt-5">Welcome</h3>
+                <h5 class="mt-5 pt-5">Welcome to FAIZ NICHE product searching app! Here you will be able to easily search and find the products. Thank you for using our app, and happy searching!</h5>
 
                 <div class="my-5 pt-5">
                     <img src="assets/logo/Logo.png" class="navlogo" alt="">
@@ -71,14 +71,48 @@
                 <button class="btn btn-outline-dark">
                     <i class="bi bi-upc-scan"></i>
                     Scan Product</button>
-                    <div class="mx-auto mt-4" style="width: fit-content;">
-                        <form style="width: 300px;" class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="type..." aria-label="Search">
-                            <button class="btn btn-outline-dark" type="submit">Search</button>
-                        </form>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="bi bi-search"></i>  Search Product
+                    </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input class="form-control mb-3" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products.." title="Type in a name">
+
+                            <ul id="myUL">
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="prodsingle.html">Adele</a></li>
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Agnes</a></li>
+                            
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Billy</a></li>
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Bob</a></li>
+                            
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Calvin</a></li>
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Christina</a></li>
+                            <li><a class="btn btn-outline-dark w-100 text-start mt-1" href="#">Cindy</a></li>
+                            </ul>
+                                </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                    
+                    </div>
+                </div>
+  
+  
+                   
+
             </div>
+            
+              
+              
+
 
             <div class="container">
                 <h2 class="text-center">PRODUCTS</h2>
@@ -205,6 +239,8 @@
                 }
             })
         </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
         <!-- bootstrap 5 -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     </body>
